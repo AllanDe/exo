@@ -29,7 +29,8 @@ export default {
       return !this.isOk && this.value.length >= 3 ? true : false
     },
     carac: function() {
-      return 5 - this.value.length;
+      let nb = 5 - this.value.length
+      return nb >= 0 ? nb : 0;
     }
   }
 }

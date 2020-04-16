@@ -1,6 +1,6 @@
 <template>
     <nav class="nav">
-        <img src="/img/logo.82b9c7a5.png"/>
+        <img src="@/assets/logo.png"/>
         <router-link v-for="lien in liens" :key="lien.path" :to="lien.path">{{lien.name}}</router-link>
     </nav>
 </template>
